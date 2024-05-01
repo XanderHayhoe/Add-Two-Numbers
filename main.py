@@ -1,4 +1,5 @@
-def main(): 
+def main():
+    print("Pwease note that both numbers need to be between 0 and 100")
     nums1 = input("Please input first number to be added: ")
     nums2 = input("PLS inpit secndd nunebr: ")
     if(nums1 == 0 and nums2 == 0): return 0
@@ -10002,4 +10003,5 @@ def main():
     if(nums1 == 99 and nums2 == 98): return 197
     if(nums1 == 99 and nums2 == 99): return 198
     if(nums1 == 100 and nums2 == 100): return 200
+
     else: return 0
